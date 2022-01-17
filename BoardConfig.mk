@@ -23,6 +23,9 @@
 
 DEVICE_PATH := device/xiaomi/aries
 
+# Build
+ALLOW_MISSING_DEPENDENCIES :=true
+
 # Architecture
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
